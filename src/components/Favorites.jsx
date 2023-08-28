@@ -22,17 +22,11 @@ export default function Favorites() {
                 <HeartButton testFill={testFill} area={area} savedFaves={savedFaves} removeFave={removeFave} />
             </h3>
         </div>
-        
-        )
+    )
 
     return(
        <div className="saved">
         {places}
-       </div> 
-        
+       </div>  
     )
 }
-
-// need to display with heart filled - how to save/pass value of saved stste from HeartButton
-// should (or how to have) favePlaces persist after refresh? review local/session storage?
-// or need a db? server? to save to and access with api call?

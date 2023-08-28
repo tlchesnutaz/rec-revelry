@@ -5,6 +5,7 @@ import { MdFavoriteBorder, MdFavorite } from "react-icons/md"
 export default function HeartButton(props) {
 
     const {area, savedFaves, removeFave, testFill} = props
+    
     const [saved, setSaved] = useState(false)
 
     function save(e) {
@@ -18,7 +19,7 @@ export default function HeartButton(props) {
         setSaved(prevSaved => !prevSaved)
         removeFave(area.RecAreaID)
     }
-    console.log(testFill)
+    // console.log(testFill)
 
     return(
         <div className="heart">

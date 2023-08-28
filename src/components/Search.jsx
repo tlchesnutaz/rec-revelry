@@ -6,6 +6,7 @@ import HeartButton from "./HeartButton"
 export default function Search() {
 
     const {recAreasList, handleClick, gSearchLink, savedFaves, removeFave} = useContext(AxiosContext)
+
     const [selectState, setSelectState] = useState("")
  
     const states = [
@@ -64,7 +65,7 @@ export default function Search() {
         { label: "West Virginia", value: "WV" },
         { label: "Wisconsin", value: "WI" },
         { label: "Wyoming", value: "WY" }
-      ];
+      ]
       
     function handleChange(e) {
         setSelectState(e.target.value);
@@ -96,7 +97,6 @@ export default function Search() {
                 </label> 
                 <button onClick={submit}> Submit </button>     
             </form>
-
             <div className="rec-list">
                 {recAreasList?.map(area => 
                     <div className="key" key={area.RecAreaID}>

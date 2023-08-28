@@ -11,10 +11,6 @@ export default function Home() {
             <p>our National Parks are just the beginning</p>
             <p>explore some of 'the other' recreation areas</p> 
             <p>and find your next favorite 'happy place'</p>
-                {/* <div className="main"></div>
-                <div className="second"></div>
-                <div className="third"></div>
-                <div className="fourth"></div> */}
             <Link to="/search">Search Recreation Areas</Link>
         </div>
 

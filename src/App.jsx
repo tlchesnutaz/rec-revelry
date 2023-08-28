@@ -10,7 +10,6 @@ export default function App() {
   return(
 
     <Router>
-
       <header>
         <Link 
           className="site-logo" 
@@ -56,8 +55,6 @@ export default function App() {
           HERE! </a>
         </p>
       </footer>
-
     </Router>
   )
 }
-
