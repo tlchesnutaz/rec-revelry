@@ -43,10 +43,10 @@ export default function App() {
             <Link className="foot-logo" to="/"> recREVELRY </Link> 
           </div>
           <div className="social">
-            < FaFacebookF className="f"/>
-            < FaGithub className="git"/>
-            < FaInstagram className="insta"/>
-            < FaTwitter className="twit"/>
+          <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">< FaFacebookF className="f"/></a> 
+          <a href="http://github.com" target="_blank" rel="noopener noreferrer">< FaGithub className="git"/></a>
+          <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">< FaInstagram className="insta"/></a>
+          <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">< FaTwitter className="twit"/></a>
           </div>
         </div>
         <p className="disclaimer"> 
